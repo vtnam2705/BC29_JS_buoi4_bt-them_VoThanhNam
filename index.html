@@ -1,0 +1,190 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Title</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <!-- Bài tập 1 -->
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="card">
+                    <div class="card-header">Ngày, tháng, năm</div>
+                    <div class="card-body">
+                        <div class="form-group">
+                            <label for="">Nhập ngày</label>
+                            <input id="txtNgay" type="text" class="form-control" />
+                        </div>
+
+                        <!-- <div class="form-group">
+                            <label for="">Lương 1 ngày</label>
+                            <select id="selectLuong"" class="form-control">
+                                <option value="100000">100000</option>
+                            </select>
+                        </div> -->
+
+                        <div class="form-group">
+                            <label for="">Nhập tháng</label>
+                            <input id="txtThang" type="text" class="form-control" />
+                        </div>
+
+                        <div class="form-group">
+                            <label for="">Nhập năm</label>
+                            <input id="txtNam" type="text" class="form-control" />
+                        </div>
+                        <button id="btn-prev" class="btn btn-danger">Last</button>
+                        <button id="btn-next" class="btn btn-danger">Next</button>
+                    </div>
+                    <div id="result" class="card-footer text-muted"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <!-- Bài tập thêm 2 -->
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="card">
+                    <div class="card-header">Số ngày trong tháng</div>
+                    <div class="card-body">
+
+                        <!-- <div class="form-group">
+                            <label for="">Lương 1 ngày</label>
+                            <select id="selectLuong"" class="form-control">
+                                <option value="100000">100000</option>
+                            </select>
+                        </div> -->
+
+                        <div class="form-group">
+                            <label for="">Nhập tháng</label>
+                            <input id="txtMonth" type="text" class="form-control" />
+                        </div>
+
+                        <div class="form-group">
+                            <label for="">Nhập năm</label>
+                            <input id="txtYear" type="text" class="form-control" />
+                        </div>
+                        <button id="btn-day" class="btn btn-danger">In</button>
+                    </div>
+                    <div id="console" class="card-footer text-muted"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <!-- Bài tập thêm 3 -->
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="card">
+                    <div class="card-header">Đọc số</div>
+                    <div class="card-body">
+
+                        <!-- <div class="form-group">
+                            <label for="">Lương 1 ngày</label>
+                            <select id="selectLuong"" class="form-control">
+                                <option value="100000">100000</option>
+                            </select>
+                        </div> -->
+
+                        <div class="form-group">
+                            <label for="">Nhập số</label>
+                            <input id="nhapSo" type="text" class="form-control" />
+                        </div>
+
+                        <!-- <div class="form-group">
+                            <label for="">Nhập năm</label>
+                            <input id="txtYear" type="text" class="form-control" />
+                        </div> -->
+                        <button id="btn-read" class="btn btn-danger">Đọc số</button>
+                    </div>
+                    <div id="inResult" class="card-footer text-muted"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <!-- Bài tập thêm 4 -->
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="card">
+                    <div class="card-header">Số ngày trong tháng</div>
+                    <div class="card-body">
+
+                        <div class="form-group style">
+                            <label for="">Sinh viên 1</label>
+                            <input id="ten-1" type="text" class="form-control col-4" placeholder="Nhập tên"/>
+                            <input id="x-1" type="text" class="form-control col-4" placeholder="Nhập tọa độ X"/>
+                            <input id="y-1" type="text" class="form-control col-4" placeholder="Nhập tọa độ Y"/>
+                        </div>
+
+                        <div class="form-group style">
+                            <label for="">Sinh viên 2</label>
+                            <input id="ten-2" type="text" class="form-control col-4" placeholder="Nhập tên"/>
+                            <input id="x-2" type="text" class="form-control col-4" placeholder="Nhập tọa độ X"/>
+                            <input id="y-2" type="text" class="form-control col-4" placeholder="Nhập tọa độ Y"/>
+                        </div>
+
+                        <div class="form-group style">
+                            <label for="">Sinh viên 2</label>
+                            <input id="ten-3" type="text" class="form-control col-4" placeholder="Nhập tên"/>
+                            <input id="x-3" type="text" class="form-control col-4" placeholder="Nhập tọa độ X"/>
+                            <input id="y-3" type="text" class="form-control col-4" placeholder="Nhập tọa độ Y"/>
+                        </div>
+
+                        <div class="form-group style">
+                            <label for="">Trường học</label>
+                            <input id="x-4" type="text" class="form-control col-4" placeholder="Nhập tọa độ X"/>
+                            <input id="y-4" type="text" class="form-control col-4" placeholder="Nhập tọa độ Y"/>
+                        </div>
+                        <button id="btn-toaDo" class="btn btn-danger">Kết quả</button>
+                    </div>
+                    <div id="ketQua" class="card-footer text-muted"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+
+    <script src="./main.js"></script>
+</body>
+
+</html>
